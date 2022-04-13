@@ -1,0 +1,490 @@
+
+
+body,html{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+/* .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+} */
+.site-banner{
+    background-color: rgb(54, 2, 2);
+    padding-bottom: 60px;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-right: 4%;
+    padding-top: 15%;
+    font-weight: 500;
+}
+.site-main .site-title{
+    color: white;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 55px 35px;
+    width: 60%;
+}
+.site-main .primary-button:hover{
+background-color: rgba(22, 1, 1, 0);
+color: white;
+border: solid 1px ;
+transition: ease-in-out 0.3s;
+}
+.site-main .primary-button{
+    margin-right: 5px;
+    background-color: white;
+    color:rgb(46, 1, 1);
+}
+
+.site-main .secondary-button{
+    margin-right: 5px;
+    background-color: white;
+    color:rgb(46, 1, 1);
+}
+.site-main .secondary-button:hover{
+    background-color: rgba(85, 0, 0, 0);
+  
+    border: solid 1px;
+    color:white;
+    transition: 0.3s ease-in;
+    }
+    .site-main .secondary-button a:hover{
+     
+       color:white;
+      
+       
+        }
+    .site-main .secondary-button a{
+text-decoration: none;
+color:rgb(46, 1, 1);;
+    }
+
+    .site-main .brand-area{
+        padding: 1rem 2rem;
+        margin-bottom: 4rem;
+        margin-top: 100px;
+    }
+    
+    .site-main .brand-area .first-row .col-lg-4{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .site-main .brand-area .first-row .col-lg-4 > .single-brand{
+        border: 1px solid var(--border-color);
+        text-align: center;
+        padding: 1.8rem 0rem;
+        margin: .9rem 0;
+        width: 180px;
+        height: 100px;
+        cursor: pointer;
+        transition: transform .4s ease;
+        margin-bottom: 100px;
+        
+    }
+    
+    .site-main .brand-area .first-row .col-lg-4 > .single-brand > i{
+        width: 50%;
+       color: black;
+    }
+    
+    .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
+        box-shadow: var(--box-shadow);
+        transform: scale(1.1);
+    }
+    
+    .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > i{
+        filter: brightness(0.15);
+        color: rgb(75, 5, 5);
+    }
+    
+    .site-main .brand-area .experience-area{
+        padding-left: 1rem;
+    }
+    
+    .site-main .brand-area .experience-area span{
+        display: block;
+    }
+    
+    .site-main .brand-area .experience-area .years-area{
+        
+        padding: 2rem 0;
+        width: 40rem;
+        height: 18rem;
+        padding-left: 8rem;
+        position: relative;
+    }
+    
+    .site-main .brand-area .experience-area .bg-panel{
+        position: absolute;
+        left: -190px; top: 0%;
+        background: #e029290a;
+        width: 400px;
+        height: 400px;
+        margin-left: 340px;
+        z-index: -1;
+    }
+    
+    .site-main .brand-area .experience-area .years-area .years{
+        font: normal bold 84px/40px var(--roboto);
+        color: var(--primary-color2);
+        z-index: 2;
+    }
+    
+    .site-main .brand-area .experience-area .years-area h2 > span{
+        font: normal 600 22px/30px var(--roboto);
+    }
+    
+    .site-main .brand-area .experience-area .call-area{
+        padding-left: 10rem;
+    }
+    
+
+
+
+
+
+
+
+    .site-main .about-area{
+        padding: 9rem 5rem;
+        background-color:#111;
+        color: white;
+    }
+    .site-main .about-area:hover{
+      
+        background-color:rgb(46, 3, 3);
+        color: white;
+    }
+    
+    .site-main .about-area .about-title h2 > span{
+        display: block;
+        font: bold 49px/ 60px var(--roboto);
+        letter-spacing: 15px;
+        margin-bottom: 2px;
+       
+    }
+    
+    .site-main .about-area .about-title .paragraph > p{
+        margin-top: 30px;
+        padding: .4rem 0;
+        font-size:1.5em;
+        text-align: center;
+    }
+
+.site-main .about-area .primary-button{
+    margin-left:560px;
+    margin-top:30px;
+    color: white;
+}
+
+.site-main .about-area .primary-button:hover{
+
+background-color: #111;
+}
+
+.site-main .about-area .primary-button a:hover{
+    text-decoration: none;
+    color: white;
+  
+    }
+.site-main .client{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color:#fff;
+    background: #111;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+
+.site-main .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.site-main .about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+    display: flex;
+    flex-direction: column;justify-content: center;
+    
+}
+
+.site-main .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+    padding:30px;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+
+
+
+
+
+.max-width{
+    max-width: 100%;
+    padding: 0 80px;
+    margin: auto;
+
+}
+.site-main .client{
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: column;
+  
+    align-items: center;
+    padding-left:15%;
+    padding-bottom: 5%;
+ 
+}
+.box{
+    
+    margin-left:0px;
+}
+/* .site-main .client .title::after{
+    content: "who with me";
+} */
+.title{
+   font-weight: bolder;
+   text-align: center;
+   color: rgb(189, 187, 187);
+   margin-top: 20px;
+}
+
+.links{
+    background-color: #111;
+    margin-top: 100px;
+    padding:80px;
+    margin-bottom: 50px;
+}
+ 
+.client  .card{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+    background: #222;
+    border-radius: 6px;
+    padding: 35px 70px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 10px ;
+    margin-left:40px;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    color: white;
+}
+ .client  .card:hover{
+    background: rgb(128, 7, 7);
+}
+/* .site-main .client .card {
+    display: inline-block;
+    
+    flex-direction: column;
+    align-items: center; 
+     justify-content: center; 
+    transition: all 0.5s ease;
+} */
+.client  .card:hover {
+    transform: scale(1.05);
+}
+ .client  .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    color:white;
+    margin: 10px 0 7px 0;
+    text-decoration: none;
+}
+.client  .card .a{
+   
+    color:white;
+    text-decoration: none;
+}
+ .client  .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(116, 9, 9);
+    transition: all 0.3s ease;
+}
+ .client  .card:hover img{
+    border-color: rgb(255, 255, 255);
+}
+
+
+.contact{
+    margin-top: 50px;
+    background-color: black;
+    
+}
+.contact .icons{
+    margin-left: 10px;
+    padding-left:12%;
+    margin-bottom: 20px;
+    text-align: center;
+    width: auto;
+}
+.contact .icons i{
+   padding-left: 20px;
+   color: rgb(129, 85, 18);
+}
+
+.contactForm{
+    padding-left:17%;
+    padding-top: 20px;
+   background-color: rgb(3, 3, 3);
+   margin-top:0px;
+   
+}
+.contactForm .label {
+    color: rgb(71, 69, 69);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600; }
+  
+  .contactForm .form-control {
+    border: none;
+width: 52%;
+color: rgb(71, 69, 69); }
+  
+  .contactForm .btn {
+    width: 52%;
+    display: block;
+    border: none;
+    background-color: rgb(129, 85, 18); }
+  
+  #contactForm .error {
+    color: #f65c78;
+    font-size: 12px; }
+  
+  #contactForm .form-control {
+    font-size: 16px;
+    background-color: #111;
+color: gray; }
+  
+  #message {
+    resize: vertical; }
+  
+  #form-message-warning, #form-message-success {
+    display: none; }
+  
+  #form-message-warning {
+    color: red; }
+  
+  #form-message-success {
+    color: #28a745;
+    font-size: 20px;
+    font-weight: 700; }
+  
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-size: 16px;
+    font-weight: 500; }
+
+
+
+    .footer-bottom{
+        background: #000;
+        width: 100vw;
+        padding: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+        height: 90px;
+        
+    }
+    
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 0rem ;
+        padding-left: 0px;
+        height: 20px;
+    }
+    
+    .socials li{
+        margin: 0 20px;
+        
+    }
+    
+    .socials a{
+        text-decoration: none;
+        color: #fff;
+        border: 1.1px solid white;
+        padding: 5px;
+        border-radius: 50%;
+    }
+    
+    .socials a i{
+        font-size: 1.1rem;
+        width: 20px;
+        transition: color .4s ease;
+        
+    }
+    
+    .socials a:hover i{
+        
+        color: white;
+    }
+    
